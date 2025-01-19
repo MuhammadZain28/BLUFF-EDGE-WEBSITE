@@ -214,8 +214,8 @@ body{
 .cta-button {
   opacity: 0;
   border: none;
-  background: #e8c630;
-    color: black;
+  background: #ffd000;
+    color: #000000;
     font-weight: bold;
     display: grid;
     place-self: center;
@@ -229,7 +229,7 @@ a{
 
 }
 .cta-button:hover {
-  scale: 1.05;
+  transform: scale(1.05);
   background-color: #ffd000;
 }
 

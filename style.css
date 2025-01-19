@@ -79,51 +79,6 @@ ul li a:hover {
   background: #ac8d00;
   transition: 0.4s ease;
 }
-@media only screen and (max-width: 900px) {
-  ul li a{
-    margin-left: 0px;
-    margin-right: 0.2rem;
-    width: 17px;
-    height: 20px;
-    overflow: hidden;
-  }
-  ul li a:hover{
-    width: 1rem;
-    overflow: visible;
-    transition: all 0.3s;
-  }
-  .icon{
-      margin: 0px;
-      width: 7rem;
-      float: left;
-  }
-  .logo{
-      width: 7rem;
-      float: left;
-      padding-left: 2rem;
-      background-size: 1250px 590px;
-  }
-  .exp{
-    scale: 0.8;
-  }
-  .search{
-    scale: 0.8;
-  }
-  .h1{
-    scale: 0.8;
-  }
-  .h2{
-    margin-inline: 20px;
-    scale: 0.8;
-  }
-  .para2{
-    scale: 0.8;
-    margin-inline: 0px;
-  }
-  ion-icon{
-    scale: 0.8;
-  }
-}
 @keyframes fadeIn {
   from{
     opacity: 0;
@@ -380,4 +335,67 @@ ion-icon:hover {
   text-align: center;
   font-weight: bold;
   color: #d6c88a;
+}
+@media only screen and (max-width: 900px) {
+  ul li{
+    
+    margin: 0px;
+  }
+  ul li a{
+    margin-left: 0px;
+    scale: 0.6;
+    text-align: center;
+  }
+  ul li a:hover{
+    overflow: visible;
+    transition: all 0.3s;
+  }
+  .log{
+    margin: 0px;
+    overflow: visible;
+  }
+  .icon{
+      margin: 0px;
+      width: 5rem;
+      float: left;
+  }
+  .logo{
+      width: 6rem;
+      height: 7rem;
+      float: left;
+      padding-left:  1rem;
+  }
+  .main1{
+    text-align: left;
+    margin-left: 0px;
+    scale: 0.8;
+    margin-top: 30px;
+  }
+  .h1{
+    text-align: left;
+    margin-left: 0px;
+    scale: 0.8;
+  }
+  .h2{
+    margin-inline: 20px;
+    scale: 0.8;
+  }
+  .para2{
+    scale: 0.8;
+    margin-inline: 0px;
+  }
+  ion-icon{
+    scale: 0.8;
+  }
+  .main{
+    margin-left: 0px;
+    text-align: left;
+  }
+  .nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    padding-left: 200px;
+    column-gap: 10%;
+    padding-top: 15px;
+  }
 }
